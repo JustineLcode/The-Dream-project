@@ -12,11 +12,11 @@
         <form method="GET" action="index.php">
             <input type="number" placeholder="€" name="euro">
             <button type="submit">&rarr;</button>
-            <p><?php echo $euro_to_dzd ?> DZD</p>
+            <p><?php echo $euro_to_dzd_round ?> DZD</p>
             <br>
             <input type="number" placeholder="DZD" name="dzd">
             <button type="submit">&rarr;</button>
-            <p><?php echo $dzd_to_euro ?> €</p>
+            <p><?php echo $dzd_to_euro_round ?> €</p>
         </form>
     </div>
 </body>
