@@ -14,10 +14,10 @@
         <div class="form-group">
             <select class="dropdown" name="option-from">
                 <option name="EUR">EUR</option>
-                <option name ="DZD">DZD</option>
-                <option>USD</option>
-                <option>YEN</option>
-                <option>SKR</option>
+                <option name="DZD">DZD</option>
+                <option name="USD">USD</option>
+                <option name="YEN">YEN</option>
+                <option name="SKR">SKR</option>
             </select>
 
             <button class="switch-button">SWITCH</button>
@@ -25,9 +25,9 @@
             <select class="dropdown" name="option-to">
                 <option name="EUR">EUR</option>
                 <option name="DZD">DZD</option>
-                <option>USD</option>
-                <option>YEN</option>
-                <option>SKR</option>
+                <option name="USD">USD</option>
+                <option name="YEN">YEN</option>
+                <option name="SKR">SKR</option>
             </select>
         </div>
 
@@ -38,10 +38,7 @@
         </div>
 
         <button class="convert-button">Convert</button>
-        <p><?php echo $euro_to_dzd_round ?> DZD</p>
-        <p><?php echo $dzd_to_euro_round ?> €</p>
-        <p><?php echo $euro_to_usd_round ?> USD</p>
-        <p><?php echo $usd_to_eur_round ?> €</p>
+    <p><?php echo $result ?></p>
     </form>
 </body>
 </html>
