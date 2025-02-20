@@ -20,7 +20,7 @@
                 <option name="SKR">SKR</option>
             </select>
 
-            <button class="switch-button">SWITCH</button>
+            <button class="switch-button">RESTART</button>
 
             <select class="dropdown" name="option-to">
                 <option name="EUR">EUR</option>
