@@ -9,36 +9,38 @@
 </head>
 
 <body>
-    <h2>Currency converter</h2>
-    <form class="form-container" method="GET" action="index.php">
-        <div class="form-group">
-            <select class="dropdown" name="option-from">
-                <option name="EUR">EUR</option>
-                <option name="DZD">DZD</option>
-                <option name="USD">USD</option>
-                <option name="YEN">YEN</option>
-                <option name="SKR">SKR</option>
-            </select>
+    <div class="global-container">
+        <h2>Currency converter</h2>
+        <form class="form-container" method="GET" action="index.php">
+            <div class="form-group">
+                <select class="dropdown" name="option-from">
+                    <option name="EUR">EUR</option>
+                    <option name="DZD">DZD</option>
+                    <option name="USD">USD</option>
+                    <option name="YEN">YEN</option>
+                    <option name="SKR">SKR</option>
+                </select>
 
-            <button class="switch-button">RESTART</button>
+                <button class="switch-button">RESTART</button>
 
-            <select class="dropdown" name="option-to">
-                <option name="EUR">EUR</option>
-                <option name="DZD">DZD</option>
-                <option name="USD">USD</option>
-                <option name="YEN">YEN</option>
-                <option name="SKR">SKR</option>
-            </select>
-        </div>
+                <select class="dropdown" name="option-to">
+                    <option name="EUR">EUR</option>
+                    <option name="DZD">DZD</option>
+                    <option name="USD">USD</option>
+                    <option name="YEN">YEN</option>
+                    <option name="SKR">SKR</option>
+                </select>
+            </div>
 
-        <div class="form-group">
-            <label class="label" for="amount" >Amount</label>
-            <input type="number" id="amount" placeholder="Enter amount" class="input-field" name="amount"/>
+            <div class="form-group">
+                <label class="label" for="amount" >Amount</label>
+                <input type="number" id="amount" placeholder="Enter amount" class="input-field" name="amount"/>
 
-        </div>
+            </div>
 
-        <button class="convert-button">Convert</button>
-    <p><?php echo $result ?></p>
-    </form>
+            <button class="convert-button">Convert</button>
+        <p><?php echo $result ?></p>
+        </form>
+    </div>
 </body>
 </html>

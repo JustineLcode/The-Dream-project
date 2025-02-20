@@ -11,7 +11,16 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+.global-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.global-container h2 {
+    margin-bottom: 20px;
+}
 .form-container {
     display: flex;
     flex-direction: column;
